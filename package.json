@@ -1,0 +1,29 @@
+{
+  "name": "@kaluzki/freecodecamp",
+  "version": "0.0.1",
+  "description": "minimalistic setup for freecodecamp exercises with typescript",
+  "keywords": [
+    "freecodecamp",
+    "typescript",
+    "minimalistic",
+    "test"
+  ],
+  "author": "Kaluzki Demjan",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaluzki/freecodecamp.git"
+  },
+  "scripts": {
+    "pretest": "tsc",
+    "test": "mocha build/test/**/*.js"
+  },
+  "devDependencies": {
+    "typescript": "^2",
+    "chai": "^3",
+    "mocha": "^3",
+    "@types/chai": "^3",
+    "@types/mocha": "^2"
+  }
+}

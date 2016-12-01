@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "noEmitOnError": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+
+    "module": "umd",
+    "sourceMap": true,
+    "target": "es5",
+    "outDir": "./build",
+    "rootDir": "."
+  },
+  "include": [
+    "src/**/*.ts",
+    "test/**/*.ts"
+  ]
+}
