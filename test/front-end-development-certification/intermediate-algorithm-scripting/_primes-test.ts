@@ -1,6 +1,9 @@
 import { assert } from "chai";
 import Primes from "../../../src/front-end-development-certification/intermediate-algorithm-scripting/_primes"
 
+/**
+ * @see Primes.to
+ */
 describe("Primes.to(to: number): number[]", () => {
     it("(1) should return []", () => {
         assert.deepEqual(Primes.to(1), []);
@@ -17,6 +20,9 @@ describe("Primes.to(to: number): number[]", () => {
     });
 });
 
+/**
+ * @see Primes.range
+ */
 describe("Primes.range(from:number, to: number): number[]", () => {
     it("(1, 1) should return []", () => {
         assert.deepEqual(Primes.range(1, 1), []);
@@ -41,6 +47,9 @@ describe("Primes.range(from:number, to: number): number[]", () => {
     });
 });
 
+/**
+ * @see Primes.is
+ */
 describe("Primes.is(prime:number): boolean", () => {
     for (let testCase of [
         {prime: -1, expected: false},
