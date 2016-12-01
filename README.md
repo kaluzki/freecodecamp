@@ -1,1 +1,1 @@
-#TODO
+#Minimalistic setup for freecodecamp exercises with typescript
